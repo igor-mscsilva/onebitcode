@@ -1,3 +1,25 @@
 Tag UL - lista nao ordenadas
 
 OL - lista ordenadas
+
+span - utilizar me uma pequena area
+
+div - utilizar a largura total da area
+
+table - tabela
+
+tr - table row, linha da tabela
+
+th - table head - titulo de cima
+
+td - elemento "dados" que vai na tabela
+
+thead - tudo que for titulo fica dentro desta tag
+
+tbody - tudo que for dados fica dentro desta tag
+
+caption - titulo da tabela
+
+placeholder - mostrar alguma mensagem de fundo exemplo
+
+required - campo deve ser preenchido, obrigatorio.
