@@ -23,3 +23,25 @@ caption - titulo da tabela
 placeholder - mostrar alguma mensagem de fundo exemplo
 
 required - campo deve ser preenchido, obrigatorio.
+
+select - campo que tem multiplas opções.
+
+*-----------------*
+SELETORES
+
+* = seletor que seleciona TODOS os elementos e aplica o estilo.
+
+li a = seletor de DECENDENCIA, que aplica o estilo na tag que esta dentro de outra tag.
+
+li > a = (>) seletor FILHO, que aplica estilho quando a tag for filho da tag pai.
+
+h1 + h4 = seletor ADIACENTE, no exemplo todo h4 que vier depois de um h1.
+
+a[href='recibo'] = seletor de ATRIBUTO, encontrara a ancora do atributo href no exemplo.
+
+li:nth-of-type(2) ou (odd = numero impar) = seletor de forma mais especifica, no exemplo seria todo segundo li que esteje na listagem dos li. 
+
+border: inherit = herdar a mesma borda do pai.
+
+
+

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+    background-image: url('https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/ROCKETS_v05.jpg?w=710&h=400');
+    background-repeat: no-repeat;
+    background-size: cover;/*capa*/
+}
+
+h1{
+    color: purple;
+    background-color:rgba(255, 0, 179, 0.205) ;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid ;
+    /*ou border: 2px solid rede*/
+
+}
+
+li{
+    color: green;
+}
+
+
+

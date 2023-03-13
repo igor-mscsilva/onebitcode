@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+h1{
+    color: purple;
+    background-color:rgba(255, 0, 179, 0.205) ;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid ;
+    /*ou border: 2px solid rede*/
+
+}
+
+li{
+    color: green;
+}
+
+h1 + h4{
+    border: 4px dashed;
+}
+
+a[href='/recibo']{
+    color: orange;
+}
+

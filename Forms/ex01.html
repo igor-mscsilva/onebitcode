@@ -34,24 +34,18 @@
     </p>
 
     <p>
-        <label for="nasc">Nacionalidade:
-            <input list="nacionalidades" name="nasc" id="nasc">
-
-            <datalist id="nacionalidades">
-            <option value="Brasileiro">
-            <option value="Americado">
-            <option value="Italiano">
-            <option value="Africano">
-            <option value="Japones">
-            </datalist>
-
-            <label for="genero"> Genero:
-                <label for="f">F</label>
-                <input type="radio" name="genero" id="f">
-                <label for="m">M</label>
-                <input type="radio" name="genero" id="m">
-            </label>
+        <label for="nationality">Nacionalidade:
+            <select name="nationality" id="nationality">
+                <option value="russian">Russia</option>
+                <option value="american">Americado</option>
+                <option value="brasilian">Brasileiro</option>
+            </select>
         </label>
+        <label for="gen">- Genero: </label>
+        <label for="m">M</label>
+        <input type="radio" name="gender" id="m">
+        <label for="f">F</label>
+        <input type="radio" name="gender" id="f">
     </p>
 
     <p>
@@ -73,9 +67,7 @@
     </p>
 
     <p>
-        <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Porque você gostaria de ser um astronauta?"></textarea>
-
-        
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser um astronauta?"></textarea>
     </p>
         <input type="submit" value="Criar">
 </html>

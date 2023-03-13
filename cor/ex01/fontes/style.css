@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+h1{
+    font-family: "Rampart One",cursive ;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif; /*estilo da font*/
+    font-size: 20px;/*tamanho da font*/
+    font-weight: 600;/*peso da font*/
+    line-height: 1.5;/*espaço entre as linhas*/
+    text-align: center;/*alinhamento do texto*/
+    text-decoration: underline;/*decoração do texto*/
+}
