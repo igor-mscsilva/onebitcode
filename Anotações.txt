@@ -42,6 +42,13 @@ a[href='recibo'] = seletor de ATRIBUTO, encontrara a ancora do atributo href no 
 li:nth-of-type(2) ou (odd = numero impar) = seletor de forma mais especifica, no exemplo seria todo segundo li que esteje na listagem dos li. 
 
 border: inherit = herdar a mesma borda do pai.
+==============================
+
+*----------Flex Item*----------*
+
+flex-basis - tamanho basico do item.
+
+flex-grow - crescimento do item sem fazer com que eles quebrem 0 ou 1.
 
 
 
