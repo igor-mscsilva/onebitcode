@@ -9,13 +9,16 @@
 .container{
     background-color: darkgrey;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25% ;/* ou utilizar frames 1fr 2fr 1fr ou repeat(3, 1fr)*/
+    gap: 10px 15px;/*espaço entre os itens*/
+    grid-template-rows: 1fr 2fr 1fr;
 }
 
 .item{
-    width: 200px;
-    height: 200px;
     border: 2px solid black;
     background-color: white;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 10px;
 }
 

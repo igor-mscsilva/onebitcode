@@ -50,5 +50,11 @@ flex-basis - tamanho basico do item.
 
 flex-grow - crescimento do item sem fazer com que eles quebrem 0 ou 1.
 
+gap: 10px 15px; - espaçamento entre os itens.
+*---------Grid------------------*
+
+display: grid; - preencher todo o tamanho disponivel na tela
+
+grid-template-columns: 25% 50% 25% ; - definição das colunas.
 
 
