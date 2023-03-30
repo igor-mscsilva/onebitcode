@@ -57,4 +57,6 @@ display: grid; - preencher todo o tamanho disponivel na tela
 
 grid-template-columns: 25% 50% 25% ; - definição das colunas.
 
+grid-column: 1/4; /*definir a coluna, o tamanho*/
 
+grid-row: 4/6; /*preencher os espaços das linhas*/
