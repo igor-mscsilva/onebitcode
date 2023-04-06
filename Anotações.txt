@@ -27,6 +27,7 @@ required - campo deve ser preenchido, obrigatorio.
 select - campo que tem multiplas opções.
 
 *-----------------*
+
 SELETORES
 
 * = seletor que seleciona TODOS os elementos e aplica o estilo.
@@ -60,3 +61,42 @@ grid-template-columns: 25% 50% 25% ; - definição das colunas.
 grid-column: 1/4; /*definir a coluna, o tamanho*/
 
 grid-row: 4/6; /*preencher os espaços das linhas*/
+
+
+
+*-----------TIPOS DE DADOS PRIMITIVOS---------------*
+
+number = 4 ou 4.5
+
+bigint = numeros grandes com final em N 999999999999n
+
+string = "ok" ou 'ok' ou "isaac".lenght = tamanho dos caracteres
+
+boolean = true - verdadeiro , false - falso
+
+null = vazio
+
+undefined = não definido, não tem valor
+
+typeof = mostrar o tipo de dado
+
+*---------------VARIAVEIS----------------------*
+
+VAR = forma antiga de criar variaveis
+
+LET = forma mais nova de criar variaveis que podem ser modificadas.
+
+CONST = criar variavel constante que não muda.
+
+
+*--------------OPERADORES ARITMéTICOS-----------------*
+
+Aritmétcos = +,-,*,/ e %
+
+Agrupamento = ()
+
+Atribuição =, +=, -=, *=, /=, e %=
+
+Encadeamento = console.erro("ERRO")
+
+Incremento ++ e Decremento --
