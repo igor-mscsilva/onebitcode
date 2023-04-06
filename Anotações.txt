@@ -100,3 +100,4 @@ Atribuição =, +=, -=, *=, /=, e %=
 Encadeamento = console.erro("ERRO")
 
 Incremento ++ e Decremento --
+
