@@ -101,3 +101,13 @@ Encadeamento = console.erro("ERRO")
 
 Incremento ++ e Decremento --
 
+
+*----------------OPERADOR TERNÁRIO---------------------*
+
+Sintaxe: const resultado = condicao ? resultado_verdadeiro : resultado_falso
+
+Exemplo:
+
+const resultado  (6 === 6) ? "verdadeiro" : "Falso"
+
+
