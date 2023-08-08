@@ -1,3 +1,6 @@
+CTRL + ; = Adicionar um comentario.
+SHIFT + ALT + Seta para baixo = Duplicar linha
+
 Tag UL - lista nao ordenadas
 
 OL - lista ordenadas
@@ -122,4 +125,31 @@ Fila (Queue) - Coleção de elementos onde o primeiro elemento a ser retirado de
 Pilha (Stack) - Coleção de elementos onde o primeiro elemento a ser retirado deve ser o último elemento adicionado.
 
 Arvore (Tree) - Conjunto de elementos chamados de nós (ou nodes) organizados em estrutura hierárquica (não sequencial), ou seja, podendo estar "abaixo" ou "acima" de outros nós.
+
+
+
+*--------------Funçoes em Arrays----------------*
+
+shift () - Remover o primeiro item
+
+pop () - remover o ultimo item do array
+
+push () - adicionar um elemento
+
+-------------------------------------------------
+
+this = este objeto.
+
+
+*-------------High Order Functions--------------*
+
+Obs: Elas são uma função que recebe outra função como parametro.
+
+callback - chamada de volta.
+
+MAP = fazer a transformação em arrays, mapeando cada um dos elementos do array antigo para um novo array.
+
+FILTER = Serve para filtrar elementos de um array, selecionar elementos expecificos de um array exitente e cria um novo array com esses elementos.
+
+REDUCE = Metodo para transformar arrays, ele serve para transformar um array em outra coisa tipo "Objeto ou array,numero,string".
 
