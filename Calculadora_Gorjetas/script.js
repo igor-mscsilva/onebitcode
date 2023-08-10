@@ -18,7 +18,7 @@ function calculateTip(event) {
     }
     //Soma do total 
     let total = (bill * serviceQual) / numOfoPeople;
-    total = total.toFixed(2); //fixar 2 casas após a virgula
+    total = total.toFixed(2); //fixar 2 casas após a virgula ;)
     document.getElementById('tip').innerHTML = total; // atribuir o valor total a id
     document.getElementById('totalTip').style.display = "block";
 }
