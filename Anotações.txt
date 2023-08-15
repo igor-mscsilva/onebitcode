@@ -1,5 +1,8 @@
+SHIFT + ALT + F = ira identar (formatar) o codigo
 CTRL + ; = Adicionar um comentario.
 SHIFT + ALT + Seta para baixo = Duplicar linha
+
+F2 - Renomea a variavel
 
 Tag UL - lista nao ordenadas
 
