@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enviando Valores do DOM para o Javascript</title>
-  <script src="./script.js"></script>
+  <!--defer ira executar o script no finalm após a pag ser carregada-->
+  <script src="./script.js" defer></script> 
 </head>
 <body>
-  <h1>Enviando Valores do DOM para o Javascript</h1>
+  <h1>Trabalhando com Eventos no Javascript</h1>
   <hr>
 
   <h2>Registre-se!</h2>
@@ -27,7 +28,8 @@
       This.parentNode - usado para acessar o nó pai "section neste exemplo"
     
     -->
-    <button onclick="register(this.parentNode)">Registrar</button>
+    <button id="register-button">Registrar</button>
+    <button onclick="removeListener">Remover Listner</button>
   </section>
 </body>
 
