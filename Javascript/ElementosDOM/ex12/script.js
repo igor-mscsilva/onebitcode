@@ -15,23 +15,26 @@ function createInput(id, value, name, type = 'text', placeholder = ''){
     return input
 }
 
-const addTecBtn = document.getElementById('addTechBtn')
+const addTechBtn = document.getElementById('addTechBtn')
 const form = document.getElementById('devForm')
 const developers = []
 let inputRows = 0
 
-addTecBtn.addEventListener('click', function(ev) {
+addTechBtn.addEventListener('click', function (ev) {
     const stackInputs = document.getElementById('stackInputs')
 
     const newRow = document.createElement('li')
     const rowIndex = inputRows
     inputRows++
-    newRow.id = 'inputRow -' + rowIndex
+    newRow.id = 'inputRow-' + rowIndex
     newRow.className = 'inputRow'
 
     const techNameLabel = createLabel('Nome: ', 'techName-' + rowIndex)
     const techNameInput = createInput('tecName- '+ rowIndex, null, 'techName')
 
+    const expLabel = createLabel('Experiência: ')
+    const expRadio1 = document.createElement('radio')
+    
     newRow.append(
         techNameLabel, techNameInput
     )
