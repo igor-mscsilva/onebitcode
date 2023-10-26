@@ -12,4 +12,5 @@ function updateTitle(){
 
 function initializeGame(){
     vBoard = [['', '',''], ['','',''],['','','']]
+    turnPlayer = 'player1'
 }
