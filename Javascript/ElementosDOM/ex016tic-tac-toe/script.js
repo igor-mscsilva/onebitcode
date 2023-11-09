@@ -13,4 +13,6 @@ function updateTitle(){
 function initializeGame(){
     vBoard = [['', '',''], ['','',''],['','','']]
     turnPlayer = 'player1'
+    document.querySelector('h2').innerHTML = 'Vez de: <span id="turnPlayer"></span>'
+    updateTitle()
 }
