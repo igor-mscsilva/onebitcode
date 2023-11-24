@@ -31,7 +31,10 @@ document.getElementById('readLocal').addEventListener('click', function(){
     alert('O texto gravado no local storage é : ' + infoLocal)
 })
 
+
 // ====== Cookies ========
+//
+
 
 document.getElementById('cookieBtn').addEventListener('click', function(){
     //pegando o input
@@ -48,8 +51,8 @@ document.getElementById('cookie2Btn').addEventListener('click', function(){
     //pegando o input
     const input = document.getElementById('cookie2')
     // cookieName=value; expires=UTCStringDate; path=/;
-    const cookie = 'info=' + input.value + ';'
-    const expiration = 'expires=' + new Date(2024,9,9) + ';'
+    const cookie = 'text==' + input.value + ';'
+    const expiration = 'expires=' + new Date(2024,8,9) + ';'
     const path = 'path=/;'
     document.cookie = cookie + expiration + path
     input.value = ''
